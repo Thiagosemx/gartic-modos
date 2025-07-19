@@ -1,0 +1,31 @@
+{
+  "titulo": "Modos de Juego - Gartic Phone",
+  "explicacion-general-titulo": "¿Qué es el modo Fusión?",
+  "explicacion-general-texto": "El modo Fusión es donde combinas 2 personajes diferentes en uno solo. ¡El tiempo lo decides tú!",
+  
+  "paso-1": "1º turno: Divide la pantalla en 3 partes y dibuja el primer personaje. No olvides escribir su nombre.",
+  "paso-2": "2º turno: Dibuja el segundo personaje, también con su nombre.",
+  "paso-3": "3º turno: Dibuja cómo sería la fusión entre los dos personajes.",
+  "paso-4": "¡Mira un ejemplo animado de una fusión real!",
+
+  "menu-logo": "🎨 Gartic Modos",
+  "menu-fusion": "Fusión",
+  "menu-superpoderes": "Superpoderes",
+  "menu-reverso": "Reverso",
+  "menu-pokedex": "Pokedex",
+  "menu-animacion": "Animación",
+  "modo_no_disponible": "Este modo aún no está disponible.",
+
+  "superpoderes-titulo": "🦸‍♂️ Modo: SUPERPODERES",
+  "superpoderes-texto": "¡Crea tu propio superpersonaje! Pero no todo será tan sencillo...",
+  "superpoderes-paso1": "🟨 1º turno: PERSONAJE\nDibuja un personaje base. Puede ser un héroe, un villano o alguien común.",
+  "superpoderes-paso2": "🟧 2º turno: PODER\nAñade un poder especial (como fuego, hielo, invisibilidad...).",
+  "superpoderes-paso3": "🟥 3º turno: DEBILIDAD\nToda habilidad tiene su punto débil. ¿Cuál es el talón de Aquiles de tu personaje?",
+  "superpoderes-paso4": "🟩 4º turno: ESCENA\nDibuja una escena donde el personaje enfrente un problema relacionado con su debilidad.",
+
+  "reverso-titulo": "🔀 Modo Reverso",
+  "reverso-texto": "Todo está al revés: el héroe se convierte en villano, lo bueno en malo... ¡y viceversa!",
+  "reverso-paso1": "1º turno: Dibuja un personaje original, como un superhéroe clásico.",
+  "reverso-paso2": "2º turno: Dibuja su versión opuesta (misma estética, pero con personalidad contraria).",
+  "reverso-paso3": "3º turno: Dibuja una escena en la que ambas versiones se enfrenten cara a cara."
+}

@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #fdf0ff, #e8d5ff);
+}
+
+/* MENU SUPERIOR */
+.menu-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7f00ff;
+  padding: 10px 30px;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.menu-principal .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.menu-principal .menu-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+.menu-links li a.activo,
+.menu-links li a:hover {
+  background-color: #ff4ddb;
+}
+
+.menu-principal select {
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* CONTEÚDO PRINCIPAL */
+.contenido {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* EXPLICAÇÃO */
+.explicacion-general {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.explicacion-general h2 {
+  margin-top: 0;
+}
+
+/* GALERIA */
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.imagen {
+  width: 260px;
+  background: white;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.imagen:hover {
+  transform: scale(1.03);
+}
+
+.imagen img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.imagen p {
+  font-size: 14px;
+  margin-top: 8px;
+}
+.alerta {
+  background-color: #ffdddd;
+  color: #a10000;
+  padding: 12px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 20px auto;
+  font-weight: bold;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+}
+
+.menu-links li a.no-disponible {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.menu-links li a.no-disponible:hover {
+  background-color: transparent;
+}
+
+.modo {
+  animation: aparecer 0.3s ease-in-out;
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f9f1ff;
+  margin-top: 4rem;
+}
+
+.footer img.avatar-footer {
+  width: 80px;
+  margin-bottom: 0.5rem;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.avatar-inline {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 0;
+}

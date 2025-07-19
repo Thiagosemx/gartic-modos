@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Modos de Juego - Gartic Phone</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  
+</head>
+<body>
+  <!-- MENU SUPERIOR -->
+  <nav class="menu-principal">
+    <div class="logo-container">
+      <img src="img/seguidor.png" alt="Avatar" class="avatar-inline">
+      <div class="logo" id="menu-logo">🎨 Gartic Modos</div>
+    </div>
+
+    <ul class="menu-links">
+      <li><a href="#" class="activo" id="menu-fusion" onclick="cambiarModo('fusion', this)">Fusión</a></li>
+      <li><a href="#" id="menu-superpoderes" onclick="cambiarModo('superpoderes', this)">Superpoderes</a></li>
+      <li><a href="#" id="menu-reverso" onclick="cambiarModo('reverso', this)">Reverso</a></li>
+      <li><a href="#" class="no-disponible" id="menu-pokedex" onclick="modoNoDisponible()">Pokedex</a></li>
+      <li><a href="#" class="no-disponible" id="menu-animacion" onclick="modoNoDisponible()">Animación</a></li>
+    </ul>
+    <select id="lang" onchange="cambiarIdioma(this.value)">
+      <option value="es">Español</option>
+      <option value="en">English</option>
+      <option value="pt">Português</option>
+      <option value="jp">日本語</option>
+    </select>
+  </nav>
+
+  <!-- ALERTA -->
+  <div id="alerta" class="alerta" style="display:none;"></div>
+
+  <main class="contenido">
+    <h1 id="titulo">Modos de Juego - Gartic Phone</h1>
+
+    <!-- MODO FUSION -->
+    <section class="modo" id="modo-fusion">
+      <section class="explicacion-general">
+        <h2 id="explicacion-general-titulo">¿Qué es el modo Fusión?</h2>
+        <p id="explicacion-general-texto"></p>
+      </section>
+      <section class="galeria fusion">
+        <div class="imagen"><img src="img/fusion_1.png"><p id="paso-1"></p></div>
+        <div class="imagen"><img src="img/fusion_2.png"><p id="paso-2"></p></div>
+        <div class="imagen"><img src="img/fusion_3.png"><p id="paso-3"></p></div>
+        <div class="imagen"><img src="img/fusion_final.gif"><p id="paso-4"></p></div>
+      </section>
+    </section>
+
+    <!-- MODO SUPERPODERES -->
+    <section class="modo" id="modo-superpoderes" style="display: none;">
+      <section class="explicacion-general">
+        <h2 id="superpoderes-explicacion-titulo">🦸‍♂️ Modo: SUPERPODERES</h2>
+        <p id="superpoderes-explicacion-texto"></p>
+      </section>
+      <div class="galeria">
+        <div class="imagen"><p id="superpoderes-paso1"></p></div>
+        <div class="imagen"><p id="superpoderes-paso2"></p></div>
+        <div class="imagen"><p id="superpoderes-paso3"></p></div>
+        <div class="imagen"><p id="superpoderes-paso4"></p></div>
+      </div>
+    </section>
+
+    <!-- MODO REVERSO -->
+    <section class="modo" id="modo-reverso" style="display: none;">
+      <section class="explicacion-general">
+        <h2 id="reverso-explicacion-titulo">🔀 Modo Reverso</h2>
+        <p id="reverso-explicacion-texto"></p>
+      </section>
+      <div class="galeria">
+        <div class="imagen"><p id="reverso-paso1"></p></div>
+        <div class="imagen"><p id="reverso-paso2"></p></div>
+        <div class="imagen"><p id="reverso-paso3"></p></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+<footer class="footer">
+  <img src="img/seguidor.png" alt="Mascota del sitio" class="avatar-footer">
+  <p id="creditos">Creado con ❤️ por Thiago_Sem_X</p>
+</footer>
+
+</html>
